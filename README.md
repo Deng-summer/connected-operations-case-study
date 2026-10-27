@@ -6,6 +6,14 @@
 
 The product connects mobile data collection with cloud processing and a web-based operations experience. Users need to move from an on-device session to uploaded records and a clear view of the resulting journey data.
 
+## Product demos
+
+- [KAWA AI website](https://kawaai.com/) — public product overview.
+- [SaaS test environment](https://saas-test.kawaai.com/) — operations interface; some pages may require an account.
+- [Mobile web test environment](https://app-test.kawaai.com/me) — app-facing interface; some pages may require an account or device connection.
+
+These are live company-operated environments. Availability and visible content may change. The mobile link intentionally omits a device identifier.
+
 ## My work
 
 I contributed to the web and mobile-facing product experience, API integration, and the workflows that connect captured data to operational views. My frontend work includes React and TypeScript interfaces, reusable UI patterns, data visualization, and integration across application boundaries.
