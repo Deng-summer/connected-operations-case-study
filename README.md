@@ -1,6 +1,22 @@
 # Connected Operations Platform: Mobile-to-Cloud Workflow
 
-*A personal portfolio case study about work on a team-built product. This repository does not contain company source code, customer data, internal documentation, credentials, or deployment configuration.*
+*A personal portfolio case study about work on a team-built product. This repository contains public-facing screenshots, but no company source code, raw capture files, internal documentation, credentials, or deployment configuration.*
+
+## Live SaaS and screenshots
+
+**Open the platform:** [KAWA-AI journey data management](https://saas.kawaai.com/journeys). The link opened successfully when this case study was updated; the available data and access rules may change.
+
+### Journey overview
+
+![KAWA-AI SaaS journey overview with data spaces and search filters](media/saas-journeys-overview.jpg)
+
+The live interface groups L4 journey data, overview counts, search, and filters in one workspace. The numbers are a snapshot of the page when captured, not a performance claim.
+
+### Event review
+
+![KAWA-AI SaaS event timeline and event category cards](media/saas-event-timeline.jpg)
+
+The detail view links an event timeline to category cards, so a reviewer can move from a journey to individual events. This screenshot omits journey identifiers and raw media.
 
 ## Product context
 
