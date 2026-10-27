@@ -29,7 +29,6 @@ The broader product is built by a team. This case study describes the parts of t
 
 ## Conceptual flow
 
-
 ```mermaid
 flowchart LR
   A[Mobile capture] --> B[Upload and API layer]
@@ -39,6 +38,17 @@ flowchart LR
 ```
 
 This diagram intentionally omits internal services, endpoints, storage locations, customer information, and implementation details.
+
+## API and data view
+
+The private platform repository includes a FastAPI service for reading uploaded journeys, their events, and related files. The backend separates API routes from domain logic and data queries, so the web interface can request a journey summary, inspect event context, and access associated media without treating raw capture files as the user interface. Import and processing scripts prepare data before it is presented for review. This is a high-level description of the team's system, not a claim that I built every component alone.
+
+| Problem | Publicly describable solution | Result a reviewer can verify |
+| --- | --- | --- |
+| Captured data arrives as separate journey, event, and media records. | Expose a consistent read model through API routes and connect it to a web review flow. | A reviewer can navigate from a journey to its related events and files. |
+| Processing takes place after mobile capture. | Show upload and processing states in the product experience. | The interface makes pending, failed, and completed work distinguishable. |
+
+The original frontend, backend, processing, and mobile source remain private because they include confidential project material. Separately reviewed, non-confidential examples may be published later; this case study does not include the production code.
 
 ## Relevant skills
 
