@@ -1,18 +1,10 @@
-# KAWA AI: Connected Vehicle Data Platform
+# Connected Operations Platform: Mobile-to-Cloud Workflow
 
-*A personal portfolio case study about work on a company product. This repository does not contain company source code, customer data, internal documentation, credentials, or deployment configuration.*
+*A personal portfolio case study about work on a team-built product. This repository does not contain company source code, customer data, internal documentation, credentials, or deployment configuration.*
 
 ## Product context
 
 The product connects mobile data collection with cloud processing and a web-based operations experience. Users need to move from an on-device session to uploaded records and a clear view of the resulting journey data.
-
-## Product demos
-
-- [KAWA AI website](https://kawaai.com/) — public product overview.
-- [SaaS test environment](https://saas-test.kawaai.com/) — operations interface; some pages may require an account.
-- [Mobile web test environment](https://app-test.kawaai.com/me) — app-facing interface; some pages may require an account or device connection.
-
-These are live company-operated environments. Availability and visible content may change. The mobile link intentionally omits a device identifier.
 
 ## My work
 
@@ -36,6 +28,7 @@ The broader product is built by a team. This case study describes the parts of t
 4. Validate changes in a test environment before release, and document rollback paths for operational changes.
 
 ## Conceptual flow
+
 
 ```mermaid
 flowchart LR
