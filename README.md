@@ -16,7 +16,15 @@ These are live company-operated environments. Availability and visible content m
 
 ## My work
 
-I contributed to the web and mobile-facing product experience, API integration, and the workflows that connect captured data to operational views. My frontend work includes React and TypeScript interfaces, reusable UI patterns, data visualization, and integration across application boundaries.
+I contributed to the web and mobile-facing product experience and the API integrations that connect captured data to operational views. Three concrete examples illustrate the work:
+
+| Problem | Approach | Observable result |
+| --- | --- | --- |
+| A mobile upload can be pending, in progress, failed, completed, or missing; a single generic status leaves users unsure what to do. | The React/TypeScript upload view maps cloud and native-bridge states into distinct UI states, displays progress and errors, and offers a resume action when a failed file can be retried. | Users can identify the affected file and continue an interrupted upload instead of starting the entire journey again. |
+| Journey review needs to connect operational records to location and event context. | The web experience combines journey details with map routes, event markers, and API-backed data views. | A reviewer can inspect a journey and its events in one flow, rather than comparing separate raw files. |
+| Changes span mobile, API, processing, and SaaS interfaces, so a locally successful change may still break the full journey. | I use explicit API contracts and test-environment validation, with release and rollback notes for operational changes. | Cross-system behavior is checked before wider release, and a failed release has a documented recovery path. |
+
+These are workflow and delivery outcomes, not claims of measured revenue or performance improvements. I can discuss the exact scope of my contributions in a project conversation.
 
 The broader product is built by a team. This case study describes the parts of the work I can discuss publicly; it does not claim sole ownership of the platform or its backend and mobile components.
 
